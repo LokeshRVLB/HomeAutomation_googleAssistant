@@ -12,3 +12,11 @@ Relay (3v/5v),
 Bulb and socket,
 motor,
 wires.
+
+#configuration: 
+IFTTT : configuration details for IFTTT is explained in config_IFTTT.docx. 
+Adafruit IO : configuration details for adafruit io is explained in config_adafruitIO.docx. 
+NodeMCU	:	configuration details for NodeMCU is explained in config_nodeMCU.docx. 
+
+#Hardware Details:
+Hardware configurations are explained in hardwareDetails.docx
