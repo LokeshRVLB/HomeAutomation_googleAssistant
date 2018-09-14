@@ -11,7 +11,7 @@ def initiliseWifi():
     sta_if.active(True)
     time.sleep(2)
     while not sta_if.isconnected():
-    	sta_if.connect('new', 'RVLBlokesh')
+    	sta_if.connect('your wifi name', 'wifi password')
     	time.sleep(2)
     	printLCD(("Connecting...."))
     printLCD(("Connected"))
@@ -90,7 +90,7 @@ def main():
     time.sleep(2)
     defaultMsg()
 
-    c = MQTTClient(server = "io.adafruit.com", client_id = "LokeshR", password = "b34331af72084d54aa122a028f0e5bb9")
+    c = MQTTClient(server = "io.adafruit.com", client_id = "user name", password = "api key")
     c.set_callback(callBack)
     c.connect()
     c.subscribe("LokeshR/feeds/switchcontrol")
